@@ -1,0 +1,46 @@
+project_name: what-is-my-ip
+
+builds:
+  - env:
+      - CGO_ENABLED=0
+    goos:
+      - linux
+      - windows
+      - darwin
+    goarch:
+      - "386"
+      - amd64
+      - arm64
+    binary: starter-go
+
+checksum:
+  name_template: "checksums.txt"
+
+release:
+  github:
+    owner: Dup4
+    name: what-is-my-ip
+
+changelog:
+  use: github
+  sort: asc
+
+  groups:
+    - title: Features
+      regexp: "^.*feat[(\\w)]*:+.*$"
+      order: 0
+    - title: "Bug fixes"
+      regexp: "^.*fix[(\\w)]*:+.*$"
+      order: 1
+    - title: "Refactor"
+      regexp: "^.*refactor[(\\w)]*:+.*$"
+      order: 2
+    - title: "Test"
+      regexp: "^.*test[(\\w)]*:+.*$"
+      order: 3
+
+  filters:
+    exclude:
+      - "^docs"
+      - "^style"
+      - "^chore"
