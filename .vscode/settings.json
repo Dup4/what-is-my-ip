@@ -6,7 +6,9 @@
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "cSpell.words": [
+        "cloudwego",
         "Codecov",
+        "consts",
         "goarch",
         "gofmt",
         "goreleaser"
