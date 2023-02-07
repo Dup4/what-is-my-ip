@@ -15,7 +15,7 @@ LDFLAGS="\
 all: build
 
 build:
-	go build -ldflags $(LDFLAGS) -o output/
+	go build -ldflags $(LDFLAGS) -o output/what-is-my-ip
 
 install:
 	go install -ldflags $(LDFLAGS)
