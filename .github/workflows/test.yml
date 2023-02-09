@@ -52,7 +52,7 @@ jobs:
           make ut
 
       - name: Upload coverage to Codecov
-        if: runner.os == 'ubuntu'
+        if: runner.os == 'Linux'
         uses: codecov/codecov-action@v3
         with:
           file: ./unittest-coverage.out
