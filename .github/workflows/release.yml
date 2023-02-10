@@ -32,7 +32,7 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
 
       - name: Upload assets
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: what-is-my-ip
           path: dist/*
