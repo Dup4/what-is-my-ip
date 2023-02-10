@@ -1,4 +1,4 @@
-FROM golang:1.20.0-bullseys AS build
+FROM golang:1.20.0-bullseye AS build
 
 USER root
 WORKDIR /code
