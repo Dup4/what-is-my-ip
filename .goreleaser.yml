@@ -9,7 +9,7 @@ builds:
     goarch:
       - amd64
       - arm64
-    binary: starter-go
+    binary: what-is-my-ip
 
 checksum:
   name_template: "checksums.txt"
