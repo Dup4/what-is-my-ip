@@ -86,5 +86,4 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            dup4/what-is-my-ip:latest
             dup4/what-is-my-ip:${{ env.DOCKER_TAG }}
