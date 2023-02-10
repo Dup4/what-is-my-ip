@@ -79,12 +79,12 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
       - name: Build and push
-        uses: docker/build-push-action@v3
+        uses: docker/build-push-action@v4
         with:
           context: ./
           file: ./docker/Dockerfile
           platforms: linux/amd64,linux/arm64
           push: true
-          tags:
-            - dup4/what-is-my-ip:latest
-            - dup4/what-is-my-ip:${{ env.DOCKER_TAG }}
+          tags: |
+            dup4/what-is-my-ip:latest
+            dup4/what-is-my-ip:${{ env.DOCKER_TAG }}
