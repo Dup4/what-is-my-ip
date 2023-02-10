@@ -2,7 +2,7 @@ FROM golang:1.20.0-bullseye AS build
 
 USER root
 WORKDIR /code
-COPY . ./code
+COPY . ./
 
 RUN make
 
