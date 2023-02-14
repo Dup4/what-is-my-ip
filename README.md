@@ -7,5 +7,5 @@
 [![Go Report Card](https://goreportcard.com/badge/github.com/Dup4/what-is-my-ip)](https://goreportcard.com/report/github.com/Dup4/what-is-my-ip)
 [![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/Dup4/what-is-my-ip)](https://github.com/Dup4/what-is-my-ip/blob/main/go.mod)
 [![Github release](https://img.shields.io/github/release/Dup4/what-is-my-ip.svg)](https://github.com/Dup4/what-is-my-ip/releases)
-[![platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-blue.svg)](https://github.com/Dup4/what-is-my-ip/releases)
+[![platform](https://img.shields.io/badge/platform-macOS%20%7C%20Linux-blue.svg)](https://github.com/Dup4/what-is-my-ip/releases)
 [![license](https://img.shields.io/badge/license-MIT-%23373737.svg)](https://raw.githubusercontent.com/Dup4/what-is-my-ip/main/LICENSE)
