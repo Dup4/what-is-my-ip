@@ -30,8 +30,6 @@ jobs:
           args: release --clean
         env:
           GITHUB_TOKEN: ${{ github.token }}
-          # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          # GITHUB_TOKEN: ${{ secrets.GH_PAT }}
 
       - name: Upload assets
         uses: actions/upload-artifact@v3
